@@ -1,0 +1,52 @@
+.announcement{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    text-decoration: none;
+}
+.arrow-icon {
+    font-size: 1rem; /* Initial size of the icon */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.arrow-icon:hover {
+    transform: scale(1.2); /* Scale up by 20% when hovered */
+}
+
+.announcement-container{
+    background-color: #0A0202;
+    font-size: 14px;
+}
+.announcement-container:hover{
+    background-color: rgb(26, 21, 21);
+    
+}
+.navbar{
+    background-color: #0A0202;
+}
+.paper-grid-heading{
+    color: white;
+    /* font-size: 30px; */
+    /* padding: 20px; */
+    text-decoration: none;
+}
+
+.note-img{
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    max-height: 350px;
+}
+/* Initial size for the papergrid link */
+.paper-grid-heading {
+    transition: transform 0.3s ease;
+}
+
+/* Smaller size when scrolling down */
+.paper-grid-heading.shrink {
+    transform: scale(0.8); /* Adjust scale as needed */
+}
+.founder-img-cls{
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    max-height: 550px;
+}
